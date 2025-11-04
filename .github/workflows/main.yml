@@ -1,0 +1,16 @@
+name: Disable Workfolow 
+
+on: 
+  push:
+    branches: [main]
+
+jobs:
+  disable:
+     runs-on: ubuntu-Latest
+     
+     steps:
+       - name: prabin
+         run: echo "Git Disable Workflow"
+    
+  
+  
